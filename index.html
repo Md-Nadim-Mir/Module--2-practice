@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- internal css -->
+
+    <style>
+      * {
+        background-color: wheat;
+      }
+      h1 {
+        color: violet;
+      }
+
+      p {
+        text-shadow: 5vh;
+        color: aqua;
+      }
+
+      #li-style {
+        color: rgb(220, 129, 3);
+        font-size: 24px;
+      }
+
+      #embeded {
+        font-size: 30px;
+        color: black;
+      }
+
+      .a {
+        font-style: italic;
+        background-color: rgb(71, 68, 68);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="bg_image" style="height: 90vh;">
+          <h1>Hello everyone</h1>
+    </div>
+
+    <div >
+
+      <h1>CSS means Cascading Style Sheet</h1>
+
+      <h3>CSS 3 types :</h3>
+
+      <ul id="li-style" type="square">
+        <li>Inline css</li>
+        <li>Internal or Embeded css</li>
+        <li>External css</li>
+      </ul>
+
+      <ol id="li-style" type="a">
+        <li>Inline css</li>
+        <li id="embeded">Internal or Embeded css</li>
+        <li>External css</li>
+      </ol>
+    </div>
+
+    <span>
+      <h2>Inline CSS example</h2>
+
+      <p
+        class="a"
+        style="
+          background-color: bisque;
+          border-radius: 0px 25px 0px 25px;
+          border: 5px solid rgb(127, 73, 73);
+          padding: 10px;
+          margin: 5px;
+          color: green;
+          font-size: 26px;
+          text-align: center;
+          font-weight: bolder;
+        "
+      >
+        Mango color is green when it is kaccaa.
+      </p>
+      <p
+        class="a"
+        style="
+          border-radius: 0px 25px 0px 25px;
+          border: 5px solid rgb(127, 73, 73);
+          padding: 10px;
+          margin: 5px;
+          color: green;
+          font-size: 26px;
+          text-align: center;
+          font-weight: bolder;
+        "
+      >
+        Mango color is green when it is kaccaa.
+      </p>
+    </span>
+
+    <h5>I am fine</h5>
+
+    <h4>I am cool</h4>
+
+    <span class="av">mango</span>
+    <span class="av">apple</span>
+    <span class="av">banana</span>
+    <span class="av">pineapple</span>
+  </body>
+</html>
